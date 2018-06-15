@@ -1,0 +1,55 @@
+c:\users\ravi\documents\visual studio 2017\Projects\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.deps.json
+c:\users\ravi\documents\visual studio 2017\Projects\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.runtimeconfig.json
+c:\users\ravi\documents\visual studio 2017\Projects\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.runtimeconfig.dev.json
+c:\users\ravi\documents\visual studio 2017\Projects\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.dll
+c:\users\ravi\documents\visual studio 2017\Projects\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.pdb
+c:\users\ravi\documents\visual studio 2017\Projects\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.csproj.CoreCompileInputs.cache
+c:\users\ravi\documents\visual studio 2017\Projects\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.AssemblyInfoInputs.cache
+c:\users\ravi\documents\visual studio 2017\Projects\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.AssemblyInfo.cs
+c:\users\ravi\documents\visual studio 2017\Projects\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.dll
+c:\users\ravi\documents\visual studio 2017\Projects\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.pdb
+C:\Users\Ravi\Documents\Visual Studio 2017\Projects\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.csprojResolveAssemblyReference.cache
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.deps.json
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.runtimeconfig.json
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.runtimeconfig.dev.json
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.dll
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.pdb
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.csprojResolveAssemblyReference.cache
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.csproj.CoreCompileInputs.cache
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.AssemblyInfoInputs.cache
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.AssemblyInfo.cs
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.dll
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.pdb
+D:\PMS\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.deps.json
+D:\PMS\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.runtimeconfig.json
+D:\PMS\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.runtimeconfig.dev.json
+D:\PMS\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.dll
+D:\PMS\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.pdb
+D:\PMS\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.csprojResolveAssemblyReference.cache
+D:\PMS\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.csproj.CoreCompileInputs.cache
+D:\PMS\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.AssemblyInfoInputs.cache
+D:\PMS\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.AssemblyInfo.cs
+D:\PMS\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.dll
+D:\PMS\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.pdb
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.deps.json
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.runtimeconfig.json
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.runtimeconfig.dev.json
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.dll
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.pdb
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.csprojResolveAssemblyReference.cache
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.csproj.CoreCompileInputs.cache
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.AssemblyInfoInputs.cache
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.AssemblyInfo.cs
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.dll
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.pdb
+D:\Manjeet Work Space\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.deps.json
+D:\Manjeet Work Space\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.runtimeconfig.json
+D:\Manjeet Work Space\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.runtimeconfig.dev.json
+D:\Manjeet Work Space\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.dll
+D:\Manjeet Work Space\PMS.APP\PMS.APP\bin\Any CPU\Release\netcoreapp2.0\PMS.APP.pdb
+D:\Manjeet Work Space\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.csprojResolveAssemblyReference.cache
+D:\Manjeet Work Space\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.csproj.CoreCompileInputs.cache
+D:\Manjeet Work Space\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.AssemblyInfoInputs.cache
+D:\Manjeet Work Space\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.AssemblyInfo.cs
+D:\Manjeet Work Space\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.dll
+D:\Manjeet Work Space\PMS.APP\PMS.APP\obj\Any CPU\Release\netcoreapp2.0\PMS.APP.pdb

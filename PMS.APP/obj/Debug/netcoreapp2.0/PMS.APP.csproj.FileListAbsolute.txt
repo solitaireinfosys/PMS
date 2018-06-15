@@ -1,0 +1,77 @@
+C:\Users\Ravi\Documents\Visual Studio 2017\Projects\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.deps.json
+C:\Users\Ravi\Documents\Visual Studio 2017\Projects\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.runtimeconfig.json
+C:\Users\Ravi\Documents\Visual Studio 2017\Projects\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.runtimeconfig.dev.json
+C:\Users\Ravi\Documents\Visual Studio 2017\Projects\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.dll
+C:\Users\Ravi\Documents\Visual Studio 2017\Projects\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.pdb
+C:\Users\Ravi\Documents\Visual Studio 2017\Projects\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.csprojResolveAssemblyReference.cache
+C:\Users\Ravi\Documents\Visual Studio 2017\Projects\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.csproj.CoreCompileInputs.cache
+C:\Users\Ravi\Documents\Visual Studio 2017\Projects\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.AssemblyInfoInputs.cache
+C:\Users\Ravi\Documents\Visual Studio 2017\Projects\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.AssemblyInfo.cs
+C:\Users\Ravi\Documents\Visual Studio 2017\Projects\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.dll
+C:\Users\Ravi\Documents\Visual Studio 2017\Projects\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.pdb
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.deps.json
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.runtimeconfig.json
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.runtimeconfig.dev.json
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.dll
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.pdb
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.csproj.CoreCompileInputs.cache
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.AssemblyInfoInputs.cache
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.AssemblyInfo.cs
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.dll
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.pdb
+E:\ravi\PMS.APP\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.csprojResolveAssemblyReference.cache
+D:\PMS\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.deps.json
+D:\PMS\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.runtimeconfig.json
+D:\PMS\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.runtimeconfig.dev.json
+D:\PMS\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.dll
+D:\PMS\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.pdb
+D:\PMS\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.csprojResolveAssemblyReference.cache
+D:\PMS\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.csproj.CoreCompileInputs.cache
+D:\PMS\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.AssemblyInfoInputs.cache
+D:\PMS\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.AssemblyInfo.cs
+D:\PMS\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.dll
+D:\PMS\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.pdb
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.deps.json
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.runtimeconfig.json
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.runtimeconfig.dev.json
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.dll
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.pdb
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.csprojResolveAssemblyReference.cache
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.csproj.CoreCompileInputs.cache
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.AssemblyInfoInputs.cache
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.AssemblyInfo.cs
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.dll
+E:\Sakshi\PMS.APP\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.pdb
+D:\Manjeet Work Space\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.deps.json
+D:\Manjeet Work Space\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.runtimeconfig.json
+D:\Manjeet Work Space\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.runtimeconfig.dev.json
+D:\Manjeet Work Space\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.dll
+D:\Manjeet Work Space\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.pdb
+D:\Manjeet Work Space\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.csprojResolveAssemblyReference.cache
+D:\Manjeet Work Space\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.csproj.CoreCompileInputs.cache
+D:\Manjeet Work Space\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.AssemblyInfoInputs.cache
+D:\Manjeet Work Space\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.AssemblyInfo.cs
+D:\Manjeet Work Space\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.dll
+D:\Manjeet Work Space\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.pdb
+D:\Sangeeta\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.deps.json
+D:\Sangeeta\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.runtimeconfig.json
+D:\Sangeeta\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.runtimeconfig.dev.json
+D:\Sangeeta\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.dll
+D:\Sangeeta\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.pdb
+D:\Sangeeta\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.csprojResolveAssemblyReference.cache
+D:\Sangeeta\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.csproj.CoreCompileInputs.cache
+D:\Sangeeta\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.AssemblyInfoInputs.cache
+D:\Sangeeta\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.AssemblyInfo.cs
+D:\Sangeeta\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.dll
+D:\Sangeeta\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.pdb
+E:\Sakshi\PMS.APP\PMS.APP_latest_15_june_2018\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.deps.json
+E:\Sakshi\PMS.APP\PMS.APP_latest_15_june_2018\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.runtimeconfig.json
+E:\Sakshi\PMS.APP\PMS.APP_latest_15_june_2018\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.runtimeconfig.dev.json
+E:\Sakshi\PMS.APP\PMS.APP_latest_15_june_2018\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.dll
+E:\Sakshi\PMS.APP\PMS.APP_latest_15_june_2018\PMS.APP\PMS.APP\bin\Debug\netcoreapp2.0\PMS.APP.pdb
+E:\Sakshi\PMS.APP\PMS.APP_latest_15_june_2018\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.csprojResolveAssemblyReference.cache
+E:\Sakshi\PMS.APP\PMS.APP_latest_15_june_2018\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.csproj.CoreCompileInputs.cache
+E:\Sakshi\PMS.APP\PMS.APP_latest_15_june_2018\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.AssemblyInfoInputs.cache
+E:\Sakshi\PMS.APP\PMS.APP_latest_15_june_2018\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.AssemblyInfo.cs
+E:\Sakshi\PMS.APP\PMS.APP_latest_15_june_2018\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.dll
+E:\Sakshi\PMS.APP\PMS.APP_latest_15_june_2018\PMS.APP\PMS.APP\obj\Debug\netcoreapp2.0\PMS.APP.pdb

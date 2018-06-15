@@ -1,0 +1,8 @@
+c:\Users\Ravi\documents\visual studio 2017\Projects\PMS.APP\PMS.DATA\bin\Debug\netcoreapp2.0\PMS.DATA.deps.json
+c:\Users\Ravi\documents\visual studio 2017\Projects\PMS.APP\PMS.DATA\bin\Debug\netcoreapp2.0\PMS.DATA.dll
+c:\Users\Ravi\documents\visual studio 2017\Projects\PMS.APP\PMS.DATA\bin\Debug\netcoreapp2.0\PMS.DATA.pdb
+c:\Users\Ravi\documents\visual studio 2017\Projects\PMS.APP\PMS.DATA\obj\Debug\netcoreapp2.0\PMS.DATA.csproj.CoreCompileInputs.cache
+c:\Users\Ravi\documents\visual studio 2017\Projects\PMS.APP\PMS.DATA\obj\Debug\netcoreapp2.0\PMS.DATA.AssemblyInfoInputs.cache
+c:\Users\Ravi\documents\visual studio 2017\Projects\PMS.APP\PMS.DATA\obj\Debug\netcoreapp2.0\PMS.DATA.AssemblyInfo.cs
+c:\Users\Ravi\documents\visual studio 2017\Projects\PMS.APP\PMS.DATA\obj\Debug\netcoreapp2.0\PMS.DATA.dll
+c:\Users\Ravi\documents\visual studio 2017\Projects\PMS.APP\PMS.DATA\obj\Debug\netcoreapp2.0\PMS.DATA.pdb

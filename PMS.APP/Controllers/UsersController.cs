@@ -28,9 +28,21 @@ namespace PMS.APP.Controllers
         {
             try
             {
+                var _users = _context.Users.Select(u => new Users
+                {
+                    UserId = u.UserId,
+                    Email = u.Email,
+                    FirstName = u.FirstName,
+                    LastName = u.LastName,
+                    DateCreated = u.DateCreated,
+                    IsActive = u.IsActive,
+                    UserType = u.UserType,
+                    UserName = u.UserName
+                });                
+
                 return Ok(new {
                     status = true,
-                    data = _context.Users
+                    data = _users
                 });
                 //return _context.Users;
             }
@@ -237,6 +249,12 @@ namespace PMS.APP.Controllers
         {
             try
             {
+                return BadRequest(new
+                {
+                    status = false,
+                    message = "You are not authorized."
+                });
+
                 if (!ModelState.IsValid)
                 {
                     return BadRequest(new

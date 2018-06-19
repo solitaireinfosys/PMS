@@ -295,7 +295,7 @@ namespace PMS.APP.Controllers
 
 
                 //=>filter by Date
-                
+
                 //=> filter by Tech 
                 _projectList = Helpers.FilterProjectsByTech(_projectList, pagination.tech, pagination.filter);
 
@@ -336,8 +336,8 @@ namespace PMS.APP.Controllers
                 return Ok(new
                 {
                     status = true,
-                   count = _techDepttList.Count,
-                   //projectCount=_techDepttList[0].data[0].projects.Count,
+                    count = _techDepttList.Count,
+                    //projectCount=_techDepttList[0].data[0].projects.Count,
                     data = _techDepttList
                 });
 
@@ -422,20 +422,23 @@ namespace PMS.APP.Controllers
             }
         }
 
-        enum Day {
-            Sunday =1,
-            Monday =2,
-            Tuesday =3,
-            Wednesday =4,
-            Thursday =5,
-            Friday =6,
-            Saturday =7 };
+        enum Day
+        {
+            Sunday = 1,
+            Monday = 2,
+            Tuesday = 3,
+            Wednesday = 4,
+            Thursday = 5,
+            Friday = 6,
+            Saturday = 7
+        };
         //Get Estimate By Month
         [HttpGet("GetEstimateByMonth")]
         public async Task<IActionResult> GetEstimateByMonth([FromQuery] Pagination pagination)
         {
-            try { 
-      
+            try
+            {
+
 
                 if (pagination.maxMonth <= 0 || pagination.month <= 0 || pagination.year <= 0)
                 {
@@ -546,7 +549,28 @@ namespace PMS.APP.Controllers
             {
                 var _milestonesList = await _context.Milestones.Where(m => m.ProjectId == id).ToListAsync();
                 _milestonesList = Helpers.FilterMilestones(_milestonesList, pagination.filter, pagination.by, pagination.month, pagination.year);
+                DateTime dt_From = new DateTime();
+                DateTime dt_To = new DateTime();
 
+                if (_milestonesList != null)
+                {
+                    if (!string.IsNullOrEmpty(pagination.dateFrom) && !string.IsNullOrEmpty(pagination.dateTo))
+                    {
+                        dt_From = DateTime.Parse(pagination.dateFrom);
+                        dt_To = DateTime.Parse(pagination.dateTo);
+                        _milestonesList = _milestonesList.Where(o => o.DueDate.Date >= dt_From.Date && o.DueDate.Date <= dt_To.Date).ToList();
+                    }
+                    else if (!string.IsNullOrEmpty(pagination.dateTo))
+                    {
+                        dt_To = DateTime.Parse(pagination.dateTo);
+                        _milestonesList = _milestonesList.Where(o => o.DueDate.Date <= dt_To.Date).ToList();
+                    }
+                    else if (!string.IsNullOrEmpty(pagination.dateFrom))
+                    {
+                        dt_From = DateTime.Parse(pagination.dateFrom);
+                        _milestonesList = _milestonesList.Where(o => o.DueDate.Date >= dt_From.Date).ToList();
+                    }
+                }
                 int _count = _milestonesList.Count();
                 int CurrentPage = pagination.pageNo;
                 int PageSize = pagination.pageSize;

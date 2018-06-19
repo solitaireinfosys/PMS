@@ -282,19 +282,20 @@ namespace PMS.APP.Controllers
 
                 //=> filter by month / year
 
-                if (pagination.maxMonth > 0 && pagination.month > 0 && pagination.year > 0)
+                if (pagination.maxMonth > 0 && pagination.month > 0 && pagination.year > 0 && pagination.dateFrom == "" && pagination.dateTo == "")
                     _projectList = Helpers.FilterProjectsByNextMonth(_projectList, pagination.filter, pagination.by, pagination.month, pagination.maxMonth, pagination.year);
-                else if (pagination.month > 0 && pagination.year > 0)
+                else if (pagination.month > 0 && pagination.year > 0 && pagination.dateFrom == "" && pagination.dateTo == "")
                     _projectList = Helpers.FilterProjectsByNextMonth(_projectList, pagination.filter, pagination.by, pagination.month, pagination.maxMonth, pagination.year);
+                else if (pagination.dateFrom != "" || pagination.dateTo != "")
+                {
+                    _projectList = Helpers.FilterProjectsByDate(_projectList, pagination.dateFrom, pagination.dateTo);
+                }
                 else
                     _projectList = Helpers.FilterProjects(_projectList, pagination.filter, pagination.by, pagination.month, pagination.year);
 
 
                 //=>filter by Date
-                if (pagination.dateFrom != "" && pagination.dateTo !="")
-                { 
-                _projectList = Helpers.FilterProjectsByDate(_projectList, pagination.dateFrom, pagination.dateTo);
-                }
+                
                 //=> filter by Tech 
                 _projectList = Helpers.FilterProjectsByTech(_projectList, pagination.tech, pagination.filter);
 
@@ -335,7 +336,8 @@ namespace PMS.APP.Controllers
                 return Ok(new
                 {
                     status = true,
-                    //meta = paginationMetadata,
+                   count = _techDepttList.Count,
+                   //projectCount=_techDepttList[0].data[0].projects.Count,
                     data = _techDepttList
                 });
 

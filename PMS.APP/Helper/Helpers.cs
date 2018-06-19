@@ -107,7 +107,10 @@ namespace PMS.APP.Helper
 
                 if (!string.IsNullOrEmpty(techBy))
                 {
-                    _projectsList = _projectsList.Where(w => w.TechnologyStack.Trim().ToLower() == techBy).ToList();
+                    if (techBy == "mobile")
+                        _projectsList = _projectsList.Where(d => d.TechnologyStack == "Android" || d.TechnologyStack == "Ionic" || d.TechnologyStack == "Ios" || d.TechnologyStack == "React Native").ToList();
+                    else
+                        _projectsList = _projectsList.Where(w => w.TechnologyStack.ToLower() == techBy).ToList();
                     var _projectMilestonesList = ProjectMilestonesList(_projectsList, userType);
 
                     tech.tech = techBy;
@@ -118,9 +121,9 @@ namespace PMS.APP.Helper
                 }
                 else
                 {
-                    foreach (var _tech in _projectsList.Select(x => x.TechnologyStack.Trim()).Distinct())
+                    foreach (var _tech in _projectsList.Select(x => x.TechnologyStack).Distinct())
                     {
-                        var _projects = _projectsList.Where(w => w.TechnologyStack.Trim().ToLower() == _tech.Trim().ToLower()).ToList();
+                        var _projects = _projectsList.Where(w =>(w.TechnologyStack==null?"":w.TechnologyStack.Trim().ToLower()) == (_tech==null?"": _tech.Trim().ToLower())).ToList();
                         //=>add detail
                         //tech.tech = _tech.Trim().ToLower();
                         //tech.TotalEstimatedCost = _projects.Sum(s => s.EstimatedCost);
@@ -130,7 +133,7 @@ namespace PMS.APP.Helper
                         var _projectMilestonesList = ProjectMilestonesList(_projects, userType);
 
                         tech = new ProjectByTech();
-                        tech.tech = _tech.Trim().ToLower();
+                        tech.tech = (_tech == null ? "" : _tech.Trim().ToLower());
                         tech.TotalEstimatedCost = _projectMilestonesList.Sum(s => s.TotalMilestoneCost);  //_projectsList.Sum(s => s.EstimatedCost);
                         tech.TotalReceived = _projectMilestonesList.Sum(s => s.TotalMilestoneCostReceived);//_projectsList.Where(w => w.PaymentReceived == true).Sum(s => s.EstimatedCost);
                         tech.projects = _projectMilestonesList; // _projectsList;
@@ -152,6 +155,10 @@ namespace PMS.APP.Helper
             {
                 var techBy = _techBy == null ? "" : _techBy.Trim().ToLower();
                 List<ProjectByTech> _techList = Helpers.ProjectMilestonesByTech(_projectsList, techBy, userType);
+
+                //if (string.IsNullOrEmpty(_techBy) && string.IsNullOrEmpty(userType))
+                //    return _techList;
+
                 List<ProjectByTech> _ProjectByTechList = new List<ProjectByTech>();
                 bool isMobile = false;
                 decimal TotalProjectsCost = 0; decimal TotalReceivedCost = 0;
@@ -816,33 +823,39 @@ namespace PMS.APP.Helper
         public static List<Projects> FilterProjectsByDate(List<Projects> _projectsList, string dateFrom, string dateTo)
         {
             DateTime assignedFromDate, assignedToDate;
-           
+            List<Projects> _projectByDate = new List<Projects>();
+            if (string.IsNullOrEmpty(dateFrom) && string.IsNullOrEmpty(dateTo))
+                return _projectsList;
             try
             {
-                if (dateFrom != "")
+                foreach (Projects _project in _projectsList)
                 {
-                    assignedFromDate = Convert.ToDateTime(dateFrom);
-                    _projectsList = _projectsList.Where(o => o.DateAssigned.Date >= assignedFromDate.Date ).ToList();
+                    Projects _proj = _project;
+                    if (!string.IsNullOrEmpty(dateFrom) && !string.IsNullOrEmpty(dateTo))
+                    {
+                        assignedFromDate = Convert.ToDateTime(dateFrom);
+                        assignedToDate = Convert.ToDateTime(dateTo);
+                        _proj.Milestones = _project.Milestones.Where(o => o.DueDate.Date >= assignedFromDate.Date && o.DueDate.Date <= assignedToDate.Date).ToList();
+                                           }
+                    else if (!string.IsNullOrEmpty(dateTo))
+                    {
+                        assignedToDate = Convert.ToDateTime(dateTo);
+                        _proj.Milestones = _project.Milestones.Where(o => o.DueDate.Date <= assignedToDate.Date).ToList();
+                    }
+                    else if(!string.IsNullOrEmpty(dateFrom))
+                    {
+                        assignedFromDate = Convert.ToDateTime(dateFrom);
+                        _proj.Milestones = _project.Milestones.Where(o => o.DueDate.Date >= assignedFromDate.Date).ToList();
+                    }//_projectsList = _projectsList.Where(o => o.DateAssigned.Date == assignedFromDate.Date).ToList();
+                    if(_proj.Milestones.Count>0)
+                    _projectByDate.Add(_proj);
                 }
-                else if (dateTo != "")
-                {
-                    assignedToDate = Convert.ToDateTime(dateTo);
-                    _projectsList = _projectsList.Where(o => o.DateAssigned.Date <= assignedToDate.Date).ToList();
-                }
-                else
-                {
-                    assignedFromDate = Convert.ToDateTime(dateFrom);
-                    assignedToDate = Convert.ToDateTime(dateTo);
-                    _projectsList = _projectsList.Where(o => o.DateAssigned.Date >= assignedFromDate.Date && o.DateAssigned.Date <= assignedToDate.Date).ToList();
-
-                }//_projectsList = _projectsList.Where(o => o.DateAssigned.Date == assignedFromDate.Date).ToList();
-
 
             }
             catch (Exception ex)
             {
             }
-            return _projectsList;
+            return _projectByDate;
         }
 
 
